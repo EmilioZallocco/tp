@@ -2,7 +2,10 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+48952- Franco Natalia Belen
+49082- Abele Federico
+50194 - Zallocco Emilio
+
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
@@ -11,7 +14,7 @@
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+Proponemos elaborar una página para solicitar y reservar turnos médicos en la cual se van a poder registrar todos los doctores que atiendan con sus respectivos horarios de consulta y cargar todos los pacientes para así también registrarlos en el calendario.
 
 ### Modelo
 ![imagen del modelo]()
@@ -27,8 +30,8 @@
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
+|CRUD simple|1. CRUD Tipo Paciente<br>2. CRUD Medico<br>3. CRUD Paciente|
+|CRUD dependiente|1. CRUD ObraSocial{depende de} CRUD Medico<br>2. CRUD Horarios {depende de} CRUD Medico |
 |Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
 |CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
 
@@ -36,8 +39,8 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD Tipo Paciente<br>2. CRUD tipoConsulta<br>3. CRUD ObraSocial{depende de} CRUD Medico<br>4. CRUD Medico<br>5. CRUD Horarios {depende de} CRUD Medico<br>6. CRUD Turno<br>|
+|CUU/Epic|1.Reservar turno para un determinado medico<br>2. Cancelar Turno<br>3. Consultar horario del turno con mail o dni|
 
 
 ### Alcance Adicional Voluntario
