@@ -17,7 +17,8 @@
 Proponemos elaborar una página para solicitar y reservar turnos médicos en la cual se van a poder registrar todos los doctores que atiendan con sus respectivos horarios de consulta y cargar todos los pacientes para así también registrarlos en el calendario.
 
 ### Modelo
-![imagen del modelo]()
+![image](https://github.com/EmilioZallocco/tp/assets/129116072/ddd3138e-5347-4f61-aee6-1d7d2776c0b4)
+
 
 *Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
